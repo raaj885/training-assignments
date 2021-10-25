@@ -32,7 +32,7 @@ public class ElectionBooth {
 		if (voterId >= 1000 && voterId <= 9000) {
 			return true;
 		} else {
-			throw new NoVoterIDException("Invalid Voter ID ");
+			throw new NoVoterIDException("Invalid Voter ID - Please check it carefully ");
 		}
 	}
 
